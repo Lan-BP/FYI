@@ -31,6 +31,10 @@
     .reward-words,.reward-featured .reward-words{font-family:var(--serif);font-size:38px;line-height:1.4;letter-spacing:0;white-space:nowrap;margin:0 0 12px}
     @media(max-width:1050px){.reward-words,.reward-featured .reward-words{font-size:34px}}
     @media(max-width:760px){.reward-words,.reward-featured .reward-words{font-size:36px}.tag{font-size:10px;letter-spacing:.5px}}
+
+    .mobile-sections{display:none}
+    @media(max-width:760px){html{scroll-padding-top:138px}.mobile-sections{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:45px;border-top:1px solid var(--line)}.mobile-sections a{display:flex;flex:1;align-items:center;justify-content:center;min-height:44px;font-size:12px;color:var(--ink);text-decoration:none;white-space:nowrap}.mobile-sections a:hover{color:#9e7432}}
+    @media print{.mobile-sections{display:none}}
   </style>
 </head>
 <body>
@@ -42,6 +46,7 @@
       </a>
       <nav class="navlinks" aria-label="页面导航"><a href="#brief">命名方向</a><a href="#rewards">征集奖励</a><a href="#selection">评选方式</a><a class="navcta" href="#participate">参与征集 ↗</a><a class="navcta navideas" href="https://sxddhcrtbqu.feishu.cn/share/base/view/shrcn2ED35tvVeqnL26xb6IhZfb" target="_blank" rel="noopener noreferrer">查看现有灵感 ↗</a></nav>
     </div>
+    <nav class="mobile-sections wrap" aria-label="页面栏目"><a href="#brief">命名方向</a><a href="#rewards">征集奖励</a><a href="#selection">评选方式</a></nav>
   </header>
   <main>
     <section class="hero" aria-labelledby="hero-title">
